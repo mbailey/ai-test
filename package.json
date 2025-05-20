@@ -1,0 +1,26 @@
+{
+  "name": "ai-test",
+  "version": "1.0.0",
+  "description": "A simple greeting application",
+  "main": "index.js",
+  "bin": {
+    "greet": "./bin/greet.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "keywords": [
+    "greeting",
+    "ai",
+    "test"
+  ],
+  "author": "Jeannie",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
