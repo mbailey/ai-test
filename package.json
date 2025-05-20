@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "A simple greeting application",
   "main": "index.js",
+  "bin": {
+    "greet": "./bin/greet.js"
+  },
   "scripts": {
     "start": "node index.js",
     "test": "jest"
